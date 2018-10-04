@@ -1,3 +1,10 @@
+var products = [
+  Product1={
+    name:"Iron tee shirt",
+    price:25,
+  }
+]
+
 function deleteItem(e){
 
 }
@@ -35,6 +42,7 @@ function createNewItemRow(itemName, itemUnitPrice){
 }
 
 function createNewItem(){
+  var productName = docuement.getElementById("product")
 
 }
 
